@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local-Bike Shop - Product Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow">
+       <div class="container mx-auto p-4 flex justify-between items-center">
+            <a href="http://127.0.0.1:5500/index.html" class="text-2xl font-bold text-gray-800">Local-Bike Shop</a>
+            <nav class="flex items-center space-x-4">
+                <a href="http://127.0.0.1:5500/assets/pages/products.html" class="text-gray-600 hover:text-gray-800">Products</a>
+                <a href="http://127.0.0.1:5500/assets/pages/about.html" class="text-gray-600 hover:text-gray-800">About Us</a>
+                <a href="http://127.0.0.1:5500/assets/pages/contact.html" class="text-gray-600 hover:text-gray-800">Contact Us</a>
+                <a href="http://127.0.0.1:5500/assets/pages/account.html" class="text-gray-600 hover:text-gray-800">Account</a>
+                <a href="http://127.0.0.1:5500/assets/pages/cart.html" class="text-gray-600 hover:text-gray-800">Cart</a>
+                <input type="search" placeholder="Search..." class="ml-4 p-2 border rounded">
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <!-- Main product image -->
+                <img src="../../images/Jasion-EB5-PLUS-27-5-Electric-Bike-Adults-500W-Motor-Bicycles-Removable-Battery-45-Miles-Mountain-Front-Fork-Suspension-7-Speed.webp" alt="Product Image" class="w-full h-auto rounded-lg mb-4">
+                <!-- Thumbnails for additional images -->
+                <div class="flex space-x-4">
+                    <img src="../../images/p1.webp" alt="Thumbnail 1" class="w-24 h-24 object-cover rounded">
+                    <img src="../../images/p2.webp" alt="Thumbnail 2" class="w-24 h-24 object-cover rounded">
+                    <img src="../../images/p3.webp" alt="Thumbnail 3" class="w-24 h-24 object-cover rounded">
+                </div>
+            </div>
+            <div>
+                <h1 class="text-4xl font-bold mb-4">Jasion EB5 PLUS 27.5" Electric Bike for Adults, 500W Motor Electric Bicycles with Removable Battery, 45 Miles Electric Mountain Bike with Front Fork Suspension, 7-Speed</h1>
+                <p class="text-gray-600 mb-4">$509.99</p>
+                <p class="text-gray-800 mb-4">Upgraded Jasion EB5 PLUS Electric Bike with 500W, 48V 10AH lithium-ion battery. Giving you strong power, more freedom and more fun enough to meet your needs. EB5 Plus extends the EB5's mountain bike style is both stylish and functional, with simple geometry that gives it a timeless look. The bike is made from high carbon steel and features a one-piece construction that is both sturdy and beautiful.</p>
+                <button class="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors duration-200">Add to Cart</button>
+
+                <!-- Customer Reviews -->
+                <div class="mt-8">
+                    <h2 class="text-2xl font-bold mb-4">Customer Reviews</h2>
+                    <div class="bg-white p-4 rounded-lg shadow-lg mb-4">
+                        <p class="text-gray-600 mb-2">"Great bike! Highly recommend." - John Doe</p>
+                        <div class="flex items-center">
+                            <img src="https://img.icons8.com/bubbles/500/about-me-male.png" alt="Customer 1" class="w-12 h-12 object-cover rounded-full mr-4">
+                            <div>
+                                <h4 class="text-lg font-semibold">John Doe</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more reviews here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white shadow mt-12">
+        <div class="container mx-auto p-4 text-center text-gray-600">
+            &copy; 2024 Local-Bike Shop. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
